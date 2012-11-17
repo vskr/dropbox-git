@@ -68,6 +68,4 @@ git init --bare "$REPO_NAME"
 ##Go back to your project 
 ##and set dropbox repo as your remote
 cd "$WORKING_PROJECT_ROOT"
-echo "${PWD}"
 git remote add origin "$DROPBOX_PROJECT_ROOT/$REPO_NAME"
-echo "$DROPBOX_PROJECT_ROOT/$REPO_NAME"
