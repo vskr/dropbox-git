@@ -69,3 +69,11 @@ git init --bare "$REPO_NAME"
 ##and set dropbox repo as your remote
 cd "$WORKING_PROJECT_ROOT"
 git remote add origin "$DROPBOX_PROJECT_ROOT/$REPO_NAME"
+
+#Add all the files, and do a first commit
+git add .
+git commit -m"first commit"
+
+
+#Push, for the first time
+git push origin master
